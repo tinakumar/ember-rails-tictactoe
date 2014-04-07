@@ -1,0 +1,15 @@
+/* Put your CSS here */
+.box {
+   border: 1px solid;
+   border-radius: 3px;
+   height: 100px;
+   width: 100px !important;
+   display: inline-block;
+   font-size: 100px;
+   line-height: 100px;
+   text-align: center;
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+ .box-wrapper {
+   width: 316px;
+ }

@@ -1,0 +1,29 @@
+<h1>Let's play Tic Tac Toe! </h1>
+
+
+<script type="text/x-handlebars" data-template-name="application">
+    {{outlet}}
+</script>
+  
+<script type="text/x-handlebars" data-template-name="index">
+    <section class="box-wrapper">
+    {{#each controller}}
+  
+        <a href="#" class="box" {{action selectBox this}}>
+          {{#if selected}}
+            {{#if userSelected}}
+              X
+            {{/if}}
+            {{#if computerSelected}}
+              O
+            {{/if}}
+          {{else}}
+            &nbsp;
+          {{/if}}
+        </a>
+      {{/each}}
+
+    </section>
+ </script>
+
+</div>
